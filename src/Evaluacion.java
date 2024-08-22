@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Evaluacion{
@@ -16,6 +18,18 @@ public class Evaluacion{
         System.out.println("Total de su compra es:"+totalcompra);
         System.out.println("Total de iva es:"+totalIVA);
         System.out.println("Total de su compra en dolares es:"+totalDolar);
-        System.out.println("hola");
+
+        // Ejercicio IMC
+        int peso;
+        float altura, imc;
+        Scanner consola = new Scanner(System.in);
+        System.out.println("Ingresa tu peso en Kg: ");
+        peso = consola.nextInt();
+        System.out.println("Ingresa tu altura  en metros: ");
+        altura = consola.nextFloat();
+        imc = peso/(altura*altura); // decimales con coma
+        System.out.println("El imc es:"+imc);
+
     }
+
 }
