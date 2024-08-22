@@ -16,6 +16,6 @@ public class Evaluacion{
         System.out.println("Total de su compra es:"+totalcompra);
         System.out.println("Total de iva es:"+totalIVA);
         System.out.println("Total de su compra en dolares es:"+totalDolar);
-
+        System.out.println("hola");
     }
 }
